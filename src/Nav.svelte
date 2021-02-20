@@ -69,8 +69,8 @@
     }
 
     .inicio::after,
-    .articulos::after,
-    .clientes::after {
+    .medicos::after,
+    .pacientes::after {
       display: inline-block;
       padding-left: 10px;
     }
@@ -78,11 +78,11 @@
     .inicio::after {
       content: "Inicio";
     }
-    .articulos::after {
-      content: "Artículos";
+    .medicos::after {
+      content: "Medicos";
     }
-    .clientes::after {
-      content: "Clientes";
+    .pacientes::after {
+      content: "Pacientes";
     }
   }
   /* PC */
@@ -109,13 +109,13 @@
       </Link>
     </li>
     <li class="item active">
-      <Link to="/articulos">
-        <span class="articulos">🎁</span>
+      <Link to="/pacientes">
+        <span class="pacientes">🎁</span>
       </Link>
     </li>
     <li class="item active">
-      <Link to="/clientes">
-        <span class="clientes">👥</span>
+      <Link to="/medicos">
+        <span class="medicos">👥</span>
       </Link>
     </li>
   </ul>

@@ -3,7 +3,7 @@
   import { jsonData }            from "./store.js";
 
   export let tipo = "insertar"; // insertar, modificar, eliminar
-  export let coleccion = "articulos"; // articulos, clientes
+  export let coleccion = "medicos"; // medicos, pacientes
   export let documento = {};
   
  
@@ -31,8 +31,8 @@
     }
 
     switch (coleccion) {
-      case "articulos": url=URL.articulos; break;
-      case "clientes": url=URL.clientes; break;
+      case "medicos": url=URL.medicos; break;
+      case "pacientes": url=URL.pacientes; break;
       default:
     }
   });

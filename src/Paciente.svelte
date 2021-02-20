@@ -1,5 +1,7 @@
 <script>
-  export let articulo = {};
+  import Boton from "./Boton.svelte";
+  
+  export let paciente = {};
 </script>
 
 <style>
@@ -13,6 +15,11 @@
     transition: 0.3s;
     padding: 10px;
     margin: 10px;
+  }
+
+  input[type="number"] {
+    text-align: right;
+    width: 100px;
   }
 
   .card:hover {
@@ -31,10 +38,10 @@
     max-width: 140px;
   }
 
-  input[type="number"] {
+  /* input[type="number"] {
     text-align: right;
     width: 100px;
-  }
+  } */
   input:focus {
     background-color: wheat;
   }
@@ -45,13 +52,17 @@
   }
 </style>
 
-<div class="card">
-  <input bind:value={articulo.nombre} class="title" />
+<div class="card" on:click>
+  Nombre:
+  <input bind:value={paciente.nombre} class="title" />
+  Apellidos:
+  <input bind:value={paciente.apellidos} class="title" />
+  Edad:
   <input
     type="number"
     min="0"
-    max="9999.99"
-    step=".01"
-    bind:value={articulo.precio} />  €
+    max="150"
+    step="1"
+    bind:value={paciente.edad} />
   <slot />
 </div>
