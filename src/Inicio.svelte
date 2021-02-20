@@ -73,14 +73,14 @@
 <div class="bloque">
   <Link to="/">
     <div class="resumen">
-      <span class="opcion">🛒 Inicio</span>
+      <span class="opcion">🏥 Inicio</span>
       <span class="descripcion">Esta página de información.</span>
     </div>
   </Link>
 
   <Link to="/pacientes">
     <div class="resumen">
-      <span class="opcion">🎁 Pacientes</span>
+      <span class="opcion">👥 Pacientes</span>
       <span class="descripcion">
         Operaciones CRUD de Pacientes en una BD.
       </span>
