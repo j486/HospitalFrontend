@@ -105,12 +105,12 @@
   <ul class="menu">
     <li class="logo">
       <Link to="/">
-        <span class="inicio">🛒</span>
+        <span class="inicio">🏥</span>
       </Link>
     </li>
     <li class="item active">
       <Link to="/pacientes">
-        <span class="pacientes">🎁</span>
+        <span class="pacientes">👥</span>
       </Link>
     </li>
     <li class="item active">
