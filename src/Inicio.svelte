@@ -101,8 +101,8 @@
   <small>
     <b>
       Código fuente en
-      <a href="https://github.com/jamj2000/tiendafrontend">
-        https://github.com/jamj2000/tiendafrontend
+      <a href="https://github.com/j486/HospitalFrontend">
+        https://github.com/j486/HospitalFrontend
       </a>
     </b>
   </small>
