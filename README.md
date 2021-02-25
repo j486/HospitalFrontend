@@ -65,4 +65,16 @@ npm  run  dev
 ````npm  install````
 
 
+**Despliegue Vercel**
+
+Instala vercel si aún no lo has hecho:
+
+````npm install -g vercel````
+
+Luego, desde la carpeta de tu proyecto:
+
+````vercel login````
+````vercel --prod````
+
+
 
