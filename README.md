@@ -74,8 +74,12 @@ Instala vercel si aún no lo has hecho:
 
 Luego, desde la carpeta de tu proyecto:
 
+**Haremos login en Vercel**
+
 ````vercel login````
 
+
+**Ejecutaremos este comando desde nuestro proyecto para su despiegue**
 ````vercel --prod````
 
 
